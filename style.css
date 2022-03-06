@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+#title{ 
+    color: red; 
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+#title:hover{
+    color: green;
+}
+
+#aboutme{ 
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+}
+.bleu{ color: blue}
+
+.red{
+    color: rgb(255, 0, 0);
+    margin: 0;
+}
+
+#nav{
+    top:0;
+    position: sticky;
+    background-color: lightblue;
+    color: blue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.navbutton{
+    background-color: lightblue;
+    border: none;
+    height: 100%;
+    font-weight: bold;
+
+}
+
+.navbutton:hover{
+    background-color: rgb(132, 190, 209);
+    border-bottom: 2px solid blue;
+}
+
+
+#hobbies{ 
+    text-align: center;
+    padding-left: 40% ;
+    padding-right: 40%;
+    
+}
+
+#rugby{
+    color: rgb(255, 238, 0);
+    font-family: "comic sans MS";
+
+}
+#inline{
+    color: blue;
+    font-family: "comic sans MS";
+}
+#ele{
+    color: rgb(0, 255, 0);
+    font-family: "comic sans MS";
+
+}
+#projects{ 
+    text-align: center;
+
+}
+#contact{ 
+    text-align: center;
+}
+
+#mainpage{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+video{
+    position: absolute;
+    top:0;
+    left:0;
+    
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#videowrapper{
+    z-index: -1;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
