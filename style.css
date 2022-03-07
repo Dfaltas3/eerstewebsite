@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: lightblue;
+    
 }
 #title{ 
     color: red; 
@@ -15,6 +16,7 @@ body{
 }
 
 #aboutme{ 
+    color: red;
     font-size: 2vw;
     font-weight: bold;
     text-align: center;
@@ -54,6 +56,7 @@ body{
 
 
 #hobbies{ 
+    color: red;
     text-align: center;
     padding-left: 40% ;
     padding-right: 40%;
@@ -61,16 +64,16 @@ body{
 }
 
 #rugby{
-    color: rgb(255, 238, 0);
+    color: red;
     font-family: "comic sans MS";
 
 }
 #inline{
-    color: blue;
+    color: red;
     font-family: "comic sans MS";
 }
 #ele{
-    color: rgb(0, 255, 0);
+    color: red;
     font-family: "comic sans MS";
 
 }
@@ -83,13 +86,14 @@ body{
 }
 
 #mainpage{
+    background-image: url(.e-t-30066.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     margin: 0;
 }
 
-video{
+.video{
     position: absolute;
     top:0;
     left:0;
@@ -107,4 +111,31 @@ video{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.background-image{
+    background-image: url(./chino-rocha-uEtFGfx0m4Q-unsplash-2.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects{
+    color: red;
+}
+
+#contact{
+    color: red;
+}
+
+#hoi{
+    color: #666120;
 }
